@@ -18,7 +18,7 @@ if (scelta === 'pari' || scelta === 'dispari') {
 
   function add(num1, num2){
     var somma = num1 + num2;
-    console.log(parseInt(somma));
+    console.log(somma);
     return somma;
   }
   randomNumber(1, 5);
