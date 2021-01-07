@@ -13,14 +13,14 @@ if (numeroUtente > 5 || numeroUtente < 1){
 
 function randomNumber(min, max) {
   var result = Math.floor(Math.random() * (max + 1 - min) + min);
-  console.log(result);
+  console.log(parseInt(result));
   return result;
 
 }
 
 function add(num1, num2){
   var somma = num1 + num2;
+  console.log(parseInt(somma));
 }
 randomNumber(1, 5);
-
-add(numeroUtente, randomNumber);
+add(numeroUtente, result)
