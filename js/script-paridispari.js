@@ -16,11 +16,16 @@ if (scelta === 'pari' || scelta === 'dispari') {
 
   }
 
-  function add(num1, num2){
-      var somma = parseInt(num1) + parseInt(num2);
-      console.log('Il risultato è: ' + somma);
-      return somma;
-    }
+  // function add(num1, num2){
+  //     var somma = parseInt(num1) + parseInt(num2);
+  //     console.log('Il risultato è: ' + somma);
+  //     return somma;
+  //   }
+
+  function add(num1,num2) {
+    return parseInt(num1) + parseInt(num2)
+    console.log('Il risultato è: ' + add);
+  }
 
   var result = randomNumber(1, 5);
   add(numeroUtente, result);
