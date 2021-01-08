@@ -27,8 +27,9 @@ if (scelta === 'pari' || scelta === 'dispari') {
     console.log('Il risultato è: ' + add);
   }
 
+  var somma = add(numeroUtente,result);
+
   var result = randomNumber(1, 5);
-  add(numeroUtente, result);
 
   if (somma % 2 === 0 && scelta === 'pari') {
     alert('Complimenti hai vinto');
